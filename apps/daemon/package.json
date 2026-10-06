@@ -1,0 +1,11 @@
+{
+  "name": "@orch/daemon",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "echo 'build @orch/daemon'",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  }
+}

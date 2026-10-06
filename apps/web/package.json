@@ -1,0 +1,11 @@
+{
+  "name": "@orch/web",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "echo 'build @orch/web'",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  }
+}

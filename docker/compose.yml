@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  opencode:
+    image: alpine:latest # Placeholder for opencode image
+    command: ["echo", "opencode service placeholder"]
+
+  daemon:
+    image: alpine:latest # Placeholder for daemon image
+    command: ["echo", "daemon service placeholder"]
+    depends_on:
+      - opencode
